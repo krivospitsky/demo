@@ -1,0 +1,73 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 05dd9c26-ec0e-4ca8-bad7-4b5eb5703972)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 125.73 64.77) (size 30.48 35.56) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9d593972-2600-4ac3-aaaa-0c9a899f5cdc)
+    (property "Sheet name" "demo2" (id 0) (at 125.73 64.0584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "demo1.kicad_sch" (id 1) (at 125.73 100.9146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 53.34 64.77) (size 30.48 35.56) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid fc764188-7b5a-4b80-b61b-edcbbbad3504)
+    (property "Sheet name" "demo1" (id 0) (at 53.34 64.0584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "demo1.kicad_sch" (id 1) (at 53.34 100.9146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/fc764188-7b5a-4b80-b61b-edcbbbad3504" (page "2"))
+    (path "/9d593972-2600-4ac3-aaaa-0c9a899f5cdc" (page "3"))
+  )
+
+  (symbol_instances
+    (path "/fc764188-7b5a-4b80-b61b-edcbbbad3504/f6a03f4f-a166-4aff-a326-04187ddccbb5"
+      (reference "#PWR01") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/fc764188-7b5a-4b80-b61b-edcbbbad3504/516576cc-b951-4f6d-bf1e-4e4678575e20"
+      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/9d593972-2600-4ac3-aaaa-0c9a899f5cdc/f6a03f4f-a166-4aff-a326-04187ddccbb5"
+      (reference "#PWR03") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/9d593972-2600-4ac3-aaaa-0c9a899f5cdc/516576cc-b951-4f6d-bf1e-4e4678575e20"
+      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc764188-7b5a-4b80-b61b-edcbbbad3504/74afcd67-ed43-49dd-afb4-6cbd7b739a2a"
+      (reference "J1") (unit 1) (value "8P8C_LED_Shielded_x2") (footprint "Connector_RJ:RJ45_Amphenol_RJHSE538X-02")
+    )
+    (path "/9d593972-2600-4ac3-aaaa-0c9a899f5cdc/74afcd67-ed43-49dd-afb4-6cbd7b739a2a"
+      (reference "J1") (unit 2) (value "8P8C_LED_Shielded_x2") (footprint "Connector_RJ:RJ45_Amphenol_RJHSE538X-02")
+    )
+    (path "/fc764188-7b5a-4b80-b61b-edcbbbad3504/15af8502-cec3-445a-93ed-06e6ce03722f"
+      (reference "R1") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/fc764188-7b5a-4b80-b61b-edcbbbad3504/7b2d89d1-8c51-4f22-ba19-71bb80a3bb16"
+      (reference "R2") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/9d593972-2600-4ac3-aaaa-0c9a899f5cdc/15af8502-cec3-445a-93ed-06e6ce03722f"
+      (reference "R3") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/9d593972-2600-4ac3-aaaa-0c9a899f5cdc/7b2d89d1-8c51-4f22-ba19-71bb80a3bb16"
+      (reference "R4") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+  )
+)
